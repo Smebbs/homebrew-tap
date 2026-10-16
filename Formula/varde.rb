@@ -5,23 +5,23 @@ class Varde < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Smebbs/varde/releases/download/v1.2.0/varde-v1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "91d6db8bfa3e6a76d73e6dd1b2aab7e856b737ca94c7c977dae0a4ce08fc0502"
+      url "https://github.com/Smebbs/varde/releases/download/v1.3.0/varde-v1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6d8687b03ed04a68f76cf2ca0b8168293e8cfee93ba70d2353e280ed7505603d"
     end
     on_intel do
-      url "https://github.com/Smebbs/varde/releases/download/v1.2.0/varde-v1.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a742796eabc447531c3b72e009833929b054f85deb735cdee8c7f71ff63e3fe3"
+      url "https://github.com/Smebbs/varde/releases/download/v1.3.0/varde-v1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ecee18ad1f443511536fc1f18bf5c93fe971dedf2950bba059c5061918521be9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Smebbs/varde/releases/download/v1.2.0/varde-v1.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "758b1b1d50c7da02752fa8737003b669a29b1e41b5a0af88058c93530639c638"
+      url "https://github.com/Smebbs/varde/releases/download/v1.3.0/varde-v1.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a8a796cae7f68a0d8d3e8feeffa6c67e815b21f2111653fc661dd7aead0240cd"
     end
     on_intel do
-      url "https://github.com/Smebbs/varde/releases/download/v1.2.0/varde-v1.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1682292ad8cbb1f2a21a5180e800627de0ff98a8bafdd79f97c2257d6a03cec9"
+      url "https://github.com/Smebbs/varde/releases/download/v1.3.0/varde-v1.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f32cca65b09693d55226864f97b14385a067e247d2a2991b50baef70f4d78f7a"
     end
   end
 
